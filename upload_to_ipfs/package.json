@@ -1,0 +1,19 @@
+{
+  "name": "generative_gif_engine",
+  "version": "1.0.1",
+  "description": "Engine for generative gif art - based on hashlips v1.0.6",
+  "main": "index.js",
+  "scripts": {
+    "upload:gif": "ts-node upload_gif.ts",
+    "upload:image": "ts-node upload_image.ts",
+    "upload:json": "ts-node upload_json.ts"
+  },
+  "dependencies": {
+    "ipfs-http-client": "^56.0.3",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.43",
+    "ts-node": "^10.8.1"
+  }
+}

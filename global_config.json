@@ -1,8 +1,8 @@
 {
-  "totalSupply": 100,
+  "totalSupply": 30,
   "height": 625,
   "width": 500,
-  "framesPerSecond": 30,
+  "framesPerSecond": 10,
   "numberOfFrames": 30,
   "saveIndividualFrames": false,
   "description": "3000 KINGS NFT",
