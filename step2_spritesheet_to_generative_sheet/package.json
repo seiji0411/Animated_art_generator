@@ -1,0 +1,42 @@
+{
+  "name": "nft-gif-generator",
+  "version": "3.1.0",
+  "description": "Jalagar Fork off of NFTChef Fork - Hard fork from HashLips Art Engine, is a tool used to create multiple different instances of animated artworks based on provided layers. Most config is the same as Hashlips",
+  "main": "index.js",
+  "bin": "index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "node index.js",
+    "generate": "node index.js",
+    "update:metadata": "node utils/updateInfo.js",
+    "generate:solana": "node Solana/metaplex.js",
+    "generate:tezos": "node utils/tezos.js",
+    "update_info:tezos": "node tezos/updateInfo.js",
+    "create_from_dna": "node utils/createFromDNA.js",
+    "remove_trait": "node utils/removeTrait.js",
+    "regenerate_dna": "node utils/regenerateDNA.js",
+    "regenerate_metadata": "node utils/regenerateMetadata.js",
+    "regenerate_metadata_from_dna": "node utils/regenerateMetadataFromDNA.js",
+    "replace": "node utils/replace.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Eugene Botha (HashLips), NFTChef, Jalagar",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "eslint-plugin-node": "^11.1.0",
+    "keccak256": "^1.0.3",
+    "sharp": "^0.30.5"
+  }
+}
