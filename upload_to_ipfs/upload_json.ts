@@ -30,9 +30,8 @@ const main = async () => {
     for (const index in files) {
         const filename = files[index].replace('.json', '');
         const filePath = path.join(imagesFolder, files[index]);
-        const stat = fs.lstatSync(filePath);
 
-        if (!stat.isDirectory() && filename !== ".DS_Store") {
+        if (/\d/.test(filename)) {
             const json = fs.readFileSync(filePath);
             params.push({ path: filename, content: json });
         }
