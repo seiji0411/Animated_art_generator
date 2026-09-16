@@ -605,22 +605,3 @@ Output type: gif or MP4
 Q: What blockchains do you support?
 
 Ethereum, Solana, Tezos.
-
-Be sure to follow me for more updates on this project:
-
-[Twitter](https://twitter.com/jalagar_eth)
-
-[GitHub](https://github.com/jalagar/)
-
-[Medium](https://jalagar-eth.medium.com/)
-
-My ETH address is 0x4233EfcB109BF6618071759335a7b9ab84F2F4f3 if you feel like being generous :). I just quit my job to work on NFTs full time
-so anything is appreciated.
-
-If you want to see this code in action, we're using it for my fitness and mental health company Fitness Friends. Join the Discord if you need help with the animated art engine, you can get direct access to me in the #dev channel:
-
-[Twitter](https://twitter.com/FitFriends_NFT)
-
-[Website](https://www.fitnessfriends.io/)
-
-[Discord](discord.gg/Nn36NUK9ba)
