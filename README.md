@@ -4,8 +4,6 @@
 
 **This repo used to be called jalagar/Generative_Gif_Engine but because it now supports GIF, MP4, it was renamed to jalagar/animated-art-engine. v3.1.0 is the beginning of the animated era.**
 
-**Check out this [Youtube Tutorial](https://www.youtube.com/watch?v=z3jMEx6PRUc) on how it works!**
-
 This python and node app generates layered-based gifs/MP4 to create animated NFT art! It is faster, simpler, and
 produces higher quality gifs/MP4s than any other open source animated generative tool out there. It also
 contains many more features including but not limited to stacking layers, if-then, ETH/Solana/Tezos, preview images,
